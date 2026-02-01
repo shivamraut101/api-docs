@@ -1,0 +1,19 @@
+﻿
+> primex-api-docs@0.1.0 lint
+> eslint . --ext .ts,.tsx
+
+
+D:\Primexmeta\primex-api-docs\src\components\docs\SearchCommand.tsx
+  11:3  warning  'CommandSeparator' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Primexmeta\primex-api-docs\src\components\editor\BlockRenderer.tsx
+  798:30  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  798:38  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+D:\Primexmeta\primex-api-docs\src\components\editor\EditorSidebar.tsx
+  36:40  error    Unexpected any. Specify a different type                                                                                  @typescript-eslint/no-explicit-any
+  67:6   warning  React Hook React.useEffect has a missing dependency: 'categoriesState'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  86:35  error    Unexpected any. Specify a different type                                                                                  @typescript-eslint/no-explicit-any
+
+Ô£û 6 problems (4 errors, 2 warnings)
+
